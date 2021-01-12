@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class JokeController {
-    private final JokeService jokeService;
+     private JokeService jokeService;
 
     @Autowired
     public JokeController(JokeService jokeService) {
